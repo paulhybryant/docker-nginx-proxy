@@ -1,4 +1,5 @@
-FROM arm64v8/nginx:1.15.7-alpine
+FROM nginx:1.15.7-alpine
+# FROM arm64v8/nginx:1.15.7-alpine
 
 MAINTAINER paulhybryant <paulhybryant@gmail.com>
 
