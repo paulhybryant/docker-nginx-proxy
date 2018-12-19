@@ -5,6 +5,6 @@ MAINTAINER paulhybryant <paulhybryant@gmail.com>
 
 ENV TZ 'Asia/Chongqing'
 
-COPY ./nginx.conf /etc/nginx/conf.d/nginx.conf
+VOLUME ["/etc/nginx/conf.d/"]
 
 EXPOSE 80
