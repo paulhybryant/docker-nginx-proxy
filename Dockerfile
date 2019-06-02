@@ -5,6 +5,6 @@ LABEL maintainer="paulhybryant@gmail.com"
 
 ENV TZ 'Asia/Chongqing'
 
-VOLUME ["/etc/nginx/conf.d/"]
+ADD proxy.conf /etc/nginx/conf.d/
 
 EXPOSE 80
